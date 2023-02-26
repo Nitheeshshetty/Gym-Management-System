@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	display: block;
+	outline: 0;
+	box-sizing: border-box;
+	transition: all 0.2s linear; 
+	text-transform: capitalize;
+	text-decoration: none;
+	font-family: "Trebuchet MS", sans-serif;
+}
+h2{
+	text-align: center;
+	color: #111;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-shadow: 2px 2px 7px white;
+}
+.train .about h2
+{
+	color: #111;
+	font-size: 2.1rem;
+	padding-bottom: 1.8rem;
+
+}
+.train .about p
+{
+	color: #504A4B;
+	font-size: 1.1rem;
+}
+.about{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.people{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.people1,.people2{
+	margin: 5% 5% 5% 5%;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.031),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.059),
+  100px 100px 80px rgba(0, 0, 0, 0.09);
+}
